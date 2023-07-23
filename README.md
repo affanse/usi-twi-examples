@@ -1,4 +1,4 @@
-# USI TWI/I2C examples
+# Attiny85 USI TWI/I2C examples
 - Attiny USI TWI/I2C simple examples and PCF8574 GPIO expander. 
 - Very small compared to Arduino version because its directly coded using the RISC Instruction Set MCU Registers.
 
