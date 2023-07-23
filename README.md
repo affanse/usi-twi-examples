@@ -14,10 +14,14 @@
 - Attiny85
 - PCF8574
 - Keypad 4x4 Membrane Matrix
-- USB to Serial (for debugging)
+- CP2102 USB to TTL/Serial (for debugging) 
 
+# Connection
+1. Connect Attiny pins to PCF8574 I2C pins
+2. Connect Keypad pins to PCF8574 IO pins
+3. Connect CP2102 to Attiny85 pin.  
 
-# build
+# Build
 - You might one to check the Makefile first before running make.
 - And run `make` and `make flash`
 
