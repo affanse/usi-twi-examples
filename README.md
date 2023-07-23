@@ -2,6 +2,21 @@
 - Attiny USI TWI/I2C simple examples and PCF8574 GPIO expander. 
 - Very small compared to Arduino version because its directly coded using the RISC Instruction Set MCU Registers.
 
+# Tools
+1. Software
+- AVRDdude Programmer
+- AVR-GCC
+- Linux OpenSuSE Tumbleweed
+- Nick Gammon SendOnlySoftwareSerial Library (https://github.com/nickgammon/SendOnlySoftwareSerial)
+
+2. Hardware
+- USBASP
+- Attiny85
+- PCF8574
+- Keypad 4x4 Membrane Matrix
+- USB to Serial (for debugging)
+
+
 # build
 - You might one to check the Makefile first before running make.
 - And run `make` and `make flash`
